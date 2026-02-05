@@ -2,10 +2,21 @@
   border: 2px solid red;
 }
 body {
+  width: 100%;
   background-color: #000000;
   color: #ffffff;
 }
 .navigation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0; 
+  z-index: 1000;;
+    width: 60%;
+  margin: 0 auto; 
+  margin-top: 10px;
+  border-radius: 8px; 
+  padding: 1rem;
   background-color: #1a1a1a;
   color: #ffffff;
   border: 1px solid red;
@@ -16,7 +27,7 @@ body {
 }
 .nav-links {
   display: flex;
-  gap: 8px;
+  gap: 50px;
   align-items: center;
   justify-content: space-evenly;
 }
